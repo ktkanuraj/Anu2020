@@ -26,7 +26,7 @@ sudo adduser ALOK chrome-remote-desktop
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occuered " >&2
 printf '\nCheck https://remotedesktop.google.com/headless Copy command of Debian linux and paste down\n'
-read -p "Paste Here: " CRPalok676875/RDP/
+read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/'
 printf '\nYour sudo passwd is 8426 \n
